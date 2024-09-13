@@ -31,24 +31,24 @@ import linkBg from './assets/images/linkBg.png'
 const App = () => {
   const [isLoading, setIsLoading] = useState(true);
 
-  useEffect(() => {
-    const timer = setTimeout(() => {
-      setIsLoading(false);
-    }, 1000); // Set the loading time to 3 seconds
+  // useEffect(() => {
+  //   const timer = setTimeout(() => {
+  //     setIsLoading(false);
+  //   }, 1000); // Set the loading time to 3 seconds
 
-    return () => clearTimeout(timer);
-  }, []);
+  //   return () => clearTimeout(timer);
+  // }, []);
 
-  if (isLoading) {
-    return <LoadingScreen />;
-  }
+  // if (isLoading) {
+  //   return <LoadingScreen />;
+  // }
 return(
   <main className="relative bg-[#32a5df]  " >
     {/* <Nav /> */}
     <section className="w-full h-screen bg-cover bg-center " style={{ backgroundImage: `url(${main3})` }}><ComingSoon /></section>
    
-     <Separator />
-     <section className="w-full h-screen bg-cover bg-center " style={{ backgroundImage: `url(${main3})` }}><Hero /></section>
+     {/* <Separator /> */}
+     {/* <section className="w-full h-screen bg-cover bg-center " style={{ backgroundImage: `url(${main3})` }}><About2 /></section> */}
 
        
       {/*<Roadmap4 />
