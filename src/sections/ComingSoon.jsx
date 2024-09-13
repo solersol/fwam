@@ -6,7 +6,7 @@ const ComingSoon = () => {
     { 
       title: "PUMPFUN", 
       text: "Buy Now", 
-      link: "https://pump.fun/", 
+      link: "https://pump.fun/sQaM2r1UkEM3w6grYZSepXJ1EAKGJbJtXa1JzyKpump", 
       image: img2, 
       initialRotation: "rotate-[-1deg]" 
     },
@@ -30,7 +30,7 @@ const ComingSoon = () => {
     <section className="w-full h-screen flex flex-col justify-center items-center">
       {/* CA Heading */}
       <h1 className="text-yellow-300 text-4xl md:text-6xl font-bold font-comic text-center mb-8">
-        CA: 
+        CA: sQaM2r1UkEM3w6grYZSepXJ1EAKGJbJtXa1JzyKpump
       </h1>
       
 
