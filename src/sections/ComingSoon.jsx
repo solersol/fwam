@@ -13,7 +13,7 @@ const ComingSoon = () => {
     { 
       title: "TELEGRAM", 
       text: "Join Now", 
-      link: "https://t.me/", 
+      link: "https://t.me/FWAMILY4L", 
       image: cardImage1, 
       initialRotation: "rotate-[-4deg]" 
     },
